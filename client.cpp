@@ -81,7 +81,7 @@ void client::PrintComanda()
     int i;
     for(i=0;i<nr_feluri_mancare;++i)
         mancare[i]->Print();
-    bautura->Print();
+    if(bautura!=NULL)bautura->Print();
 }
 client &client::operator=(const client &c)
 {

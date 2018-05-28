@@ -19,7 +19,7 @@ void restaurant::AdaugaMasa()
     a.Comanda();
     --nr_mese_libere;
 }
-void restaurant::AfisareComandaClient(int i)
+void restaurant::AfisareComandaClient(int i,int j)
 {
-    m[i].Comanda();
+    m[i].ComandaClient(j);
 }

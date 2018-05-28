@@ -8,7 +8,7 @@ class restaurant
         restaurant();
         virtual ~restaurant();
         void AdaugaMasa();
-        void AfisareComandaClient(int i);
+        void AfisareComandaClient(int i,int j);
     protected:
         int nr_mese_libere;
         int nr_mese_total;
