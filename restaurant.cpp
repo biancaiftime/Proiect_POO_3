@@ -23,3 +23,7 @@ void restaurant::AfisareComandaClient(int i,int j)
 {
     m[i].ComandaClient(j);
 }
+void restaurant::AfisareNotaClient(int nr_masa,int nr_client)
+{
+    m[nr_masa].NotaClient(nr_client);
+}

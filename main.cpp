@@ -5,6 +5,6 @@ int main()
 {
     restaurant r;
     r.AdaugaMasa();
-    r.AfisareComandaClient(0,0);
+    r.AfisareNotaClient(0,0);
     return 0;
 }
